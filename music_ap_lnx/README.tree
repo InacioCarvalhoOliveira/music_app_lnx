@@ -1,0 +1,196 @@
+├── .dart_tool
+│  ├── flutter_build
+│  │  └── dart_plugin_registrant.dart
+│  ├── package_config_subset
+│  ├── package_config.json
+│  └── version
+├── .flutter-plugins
+├── .flutter-plugins-dependencies
+├── .gitignore
+├── .idea
+│  ├── libraries
+│  │  ├── Dart_SDK.xml
+│  │  └── KotlinJavaRuntime.xml
+│  ├── modules.xml
+│  ├── runConfigurations
+│  │  └── main_dart.xml
+│  └── workspace.xml
+├── .metadata
+├── analysis_options.yaml
+├── android
+│  ├── .gitignore
+│  ├── app
+│  │  ├── build.gradle
+│  │  └── src
+│  │    ├── debug
+│  │    │  └── AndroidManifest.xml
+│  │    ├── main
+│  │    │  ├── AndroidManifest.xml
+│  │    │  ├── java
+│  │    │  │  └── io
+│  │    │  │    └── flutter
+│  │    │  │      └── plugins
+│  │    │  │        └── GeneratedPluginRegistrant.java
+│  │    │  ├── kotlin
+│  │    │  │  └── br
+│  │    │  │    └── com
+│  │    │  │      └── inadev
+│  │    │  │        └── musicaapp
+│  │    │  │          └── music_ap_lnx
+│  │    │  │            └── MainActivity.kt
+│  │    │  └── res
+│  │    │    ├── drawable
+│  │    │    │  └── launch_background.xml
+│  │    │    ├── drawable-v21
+│  │    │    │  └── launch_background.xml
+│  │    │    ├── mipmap-hdpi
+│  │    │    │  └── ic_launcher.png
+│  │    │    ├── mipmap-mdpi
+│  │    │    │  └── ic_launcher.png
+│  │    │    ├── mipmap-xhdpi
+│  │    │    │  └── ic_launcher.png
+│  │    │    ├── mipmap-xxhdpi
+│  │    │    │  └── ic_launcher.png
+│  │    │    ├── mipmap-xxxhdpi
+│  │    │    │  └── ic_launcher.png
+│  │    │    ├── values
+│  │    │    │  └── styles.xml
+│  │    │    └── values-night
+│  │    │      └── styles.xml
+│  │    └── profile
+│  │      └── AndroidManifest.xml
+│  ├── build.gradle
+│  ├── gradle
+│  │  └── wrapper
+│  │    ├── gradle-wrapper.jar
+│  │    └── gradle-wrapper.properties
+│  ├── gradle.properties
+│  ├── gradlew
+│  ├── gradlew.bat
+│  ├── local.properties
+│  ├── music_ap_lnx_android.iml
+│  └── settings.gradle
+├── assets
+│  ├── fonts
+│  │  └── Nunito
+│  │    ├── Nunito-Bold.ttf
+│  │    └── Nunito-Regular.ttf
+│  ├── images
+│  │  ├── ambiente-cover.jpg
+│  │  ├── ambiente-musica-1.jpg
+│  │  ├── ambiente-musica-2.jpg
+│  │  ├── ambiente-musica-3.jpg
+│  │  ├── ambiente-musica-4.jpg
+│  │  ├── ambiente-musica-5.png
+│  │  ├── ambiente-musica-6.jpg
+│  │  ├── ambiente-musica-7.jpg
+│  │  ├── ambiente-musica-8.jpg
+│  │  ├── ambiente-musica-9.jpg
+│  │  ├── eletronic-music-1.jpg
+│  │  ├── eletronic-music-2.jpg
+│  │  ├── eletronic-music-3.jpg
+│  │  ├── eletronic-music-4.jpg
+│  │  ├── eletronico-cover.png
+│  │  └── music_placeholder.png
+│  └── musics
+│    ├── ambient-piano-prod-by-balancebay-109400.mp3
+│    ├── believe-in-miracle-by-prabajithk-121041.mp3
+│    ├── documentary-138619.mp3
+│    ├── hang-drum-meditations-137894.mp3
+│    ├── lifelike-126735.mp3
+│    ├── middle-east-127104.mp3
+│    ├── muladara-chakra-music-138093.mp3
+│    ├── password-infinity-123276.mp3
+│    ├── powerful-beat-121791.mp3
+│    ├── slow-motion-121841.mp3
+│    ├── stay-free-138363.mp3
+│    ├── touch-and-sound-113676.mp3
+│    └── winter-backseat-kiss-130997.mp3
+├── build
+│  └── unit_test_assets
+│    ├── AssetManifest.bin
+│    ├── AssetManifest.json
+│    ├── assets
+│    │  ├── fonts
+│    │  │  └── Nunito
+│    │  │    ├── Nunito-Bold.ttf
+│    │  │    └── Nunito-Regular.ttf
+│    │  ├── images
+│    │  │  ├── ambiente-cover.jpg
+│    │  │  ├── ambiente-musica-1.jpg
+│    │  │  ├── ambiente-musica-2.jpg
+│    │  │  ├── ambiente-musica-3.jpg
+│    │  │  ├── ambiente-musica-4.jpg
+│    │  │  ├── ambiente-musica-5.png
+│    │  │  ├── ambiente-musica-6.jpg
+│    │  │  ├── ambiente-musica-7.jpg
+│    │  │  ├── ambiente-musica-8.jpg
+│    │  │  ├── ambiente-musica-9.jpg
+│    │  │  ├── eletronic-music-1.jpg
+│    │  │  ├── eletronic-music-2.jpg
+│    │  │  ├── eletronic-music-3.jpg
+│    │  │  ├── eletronic-music-4.jpg
+│    │  │  ├── eletronico-cover.png
+│    │  │  └── music_placeholder.png
+│    │  └── musics
+│    │    ├── ambient-piano-prod-by-balancebay-109400.mp3
+│    │    ├── believe-in-miracle-by-prabajithk-121041.mp3
+│    │    ├── documentary-138619.mp3
+│    │    ├── hang-drum-meditations-137894.mp3
+│    │    ├── lifelike-126735.mp3
+│    │    ├── middle-east-127104.mp3
+│    │    ├── muladara-chakra-music-138093.mp3
+│    │    ├── password-infinity-123276.mp3
+│    │    ├── powerful-beat-121791.mp3
+│    │    ├── slow-motion-121841.mp3
+│    │    ├── stay-free-138363.mp3
+│    │    ├── touch-and-sound-113676.mp3
+│    │    └── winter-backseat-kiss-130997.mp3
+│    ├── FontManifest.json
+│    ├── fonts
+│    │  └── MaterialIcons-Regular.otf
+│    ├── NOTICES.Z
+│    ├── packages
+│    │  └── cupertino_icons
+│    │    └── assets
+│    │      └── CupertinoIcons.ttf
+│    └── shaders
+│      └── ink_sparkle.frag
+├── lib
+│  ├── core
+│  │  └── app
+│  │    ├── music_app_colors.dart
+│  │    ├── music_app_initial_bindings.dart
+│  │    ├── music_app_material.dart
+│  │    ├── music_app_text_styles.dart
+│  │    ├── music_app.dart
+│  │    └── services
+│  │      ├── api_service.dart
+│  │      ├── audio_player_service_impl.dart
+│  │      ├── audio_player_service.dart
+│  │      └── dot_env_service.dart
+│  ├── features
+│  │  ├── genre_list
+│  │  │  └── presentation
+│  │  │    ├── bindings
+│  │  │    │  ├── genre_details_bindings.dart
+│  │  │    │  └── genre_list_bindings.dart
+│  │  │    ├── controllers
+│  │  │    │  ├── genre_details_controller.dart
+│  │  │    │  └── genre_list_controller.dart
+│  │  │    └── screens
+│  │  │      └── genre_details_screen.dart
+│  │  └── genre_list_screen.dart
+│  ├── main.dart
+│  └── shared
+│    └── features
+│      └── music_app
+│        └── presentation
+│          └── controllers
+│            └── music_player_controller.dart
+├── music_ap_lnx.iml
+├── pubspec.lock
+├── pubspec.yaml
+├── README.md
+└── test
+  └── widget_test.dart
